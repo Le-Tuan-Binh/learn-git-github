@@ -1,10 +1,14 @@
-_1. Thiết lập tài khoản người sử dụng_
+# 1. Thiết lập tài khoản người sử dụng
+
 git config --global user.name ""
 git config --global user.email ""
-_2. Các bước tạo ssh key_
+
+# 2. Các bước tạo ssh key
+
 https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.html
 
-_3. Các lệnh cơ bản_
+# 3. Các lệnh cơ bản
+
 git add `file` -> git add index.html: Thêm từng file vào Stage Changes
 git add . -> Đưa toàn bộ thay đổi vào Stage Changes
 git commit -m `message` -> git commit -m 'Add index.html and app.css': Đưa các sự thay đổi lên
@@ -13,8 +17,13 @@ git checkout -b `branch` -> git checkout -b TBin: Tạo nhánh mới
 git checkout `branch` -> Chuyển sang nhánh khác
 git branch -D `branch` -> Xóa nhánh
 git rebase `branch` -> Đảm bảo code luôn mới nhất trên nhánh `branch`
-_4. Nhánh (Branch)_
+git log --oneline: Log ra những commit
+# Git reset
+- Dùng để reset lại các commit trước đó
+  git reset --soft HEAD(Commit trước đó/ID của commit): Lệnh này chỉ đơn giản khi chúng ta quên add một file nào đó và chỉ muốn add thêm vào sau khi reset
+  git reset --mixed HEAD(Commit trước đó/ID của commit) (mặc định): Sẽ reset những commit trước đó và những Stage Changes
+  git reset --hard HEAD(Commit trước đó/ID của commit): Xóa tất cả commit trước đó nếu có
 
-create pull request
-
-merge code to branch Master
+  _4. Nhánh (Branch)_
+  create pull request
+  merge code to branch Master
