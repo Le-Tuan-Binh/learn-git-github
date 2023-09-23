@@ -18,10 +18,9 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 - clear: Xóa hiển thị terminal
 - git pull: Lấy toàn bộ từ nhánh về
 # 4. Git reset
-- Dùng để reset lại các commit trước đó
-  git reset --soft HEAD(Commit trước đó/ID của commit): Lệnh này chỉ đơn giản khi chúng ta quên add một file nào đó và chỉ muốn add thêm vào sau khi reset
-  git reset --mixed HEAD(Commit trước đó/ID của commit) (mặc định): Sẽ reset những commit trước đó và những Stage Changes
-  git reset --hard HEAD(Commit trước đó/ID của commit): Xóa tất cả commit trước đó nếu có
+- git reset --soft HEAD(Commit trước đó/ID của commit): Lệnh này chỉ đơn giản khi chúng ta quên add một file nào đó và chỉ muốn add thêm vào sau khi reset
+- git reset --mixed HEAD(Commit trước đó/ID của commit) (mặc định): Sẽ reset những commit trước đó và những Stage Changes
+- git reset --hard HEAD(Commit trước đó/ID của commit): Xóa tất cả commit trước đó nếu có
 # 5. Một số thứ thường thấy khi làm việc chung
-  create pull request
-  merge code to branch Master
+- create pull request
+- merge code to branch Master
