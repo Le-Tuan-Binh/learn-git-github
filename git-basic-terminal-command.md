@@ -10,6 +10,8 @@ _3. Các lệnh cơ bản_
     git commit -m `message` -> git commit -m 'Add index.html and app.css': Đưa các sự thay đổi lên
     git push: Đẩy lên github
     git checkout -b `branch` -> git checkout -b TBin: Tạo nhánh mới
+    Nếu chưa tồn tại dưới local thì ở giao diện Source Control sẽ có `Publish Branch`
+    git push --set-upstream origin `branch`
 _4. Nhánh (Branch)_
 
 create pull request
