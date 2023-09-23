@@ -12,6 +12,7 @@ git push: Đẩy lên github
 git checkout -b `branch` -> git checkout -b TBin: Tạo nhánh mới
 git checkout `branch` -> Chuyển sang nhánh khác
 git branch -D `branch` -> Xóa nhánh
+git rebase `branch` -> Đảm bảo code luôn mới nhất trên nhánh `branch`
 _4. Nhánh (Branch)_
 
 create pull request
