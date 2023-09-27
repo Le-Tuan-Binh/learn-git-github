@@ -1,6 +1,6 @@
 # 1. Thiết lập tài khoản người sử dụng
-git config --global user.name ""
-git config --global user.email ""
+- git config --global user.name ""
+- git config --global user.email ""
 # 2. Các bước tạo ssh key
 https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.html
 # 3. Các lệnh cơ bản
