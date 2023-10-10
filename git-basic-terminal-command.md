@@ -91,9 +91,9 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 - **Dùng để clone repository từ `Github` về máy.**
   - **git clone `ssh_link_in_github/http_link_in_github`**
 - **Đẩy lên Github khi thư mục đã có Git**<br>
-  **git remote add origin `http_link_in_github`**<br>
-  **git branch -M main**<br>
-  **git push -u origin main**<br>
+  - **git remote add origin `http_link_in_github`**<br>
+  - **git branch -M main**<br>
+  - **git push -u origin main**<br>
 - **Đẩy code lần đầu lên Github khi project chưa có Git**
   - Bước 1: **git init**
   - Bước 2: **git add .**
