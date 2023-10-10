@@ -40,7 +40,7 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
   > Ví dụ: git add .
 
-- **git commit -m `message`** : Đưa các sự thay đổi ở vùng Staging area chuyển sang Repository mục đích là tạo ra 1 phiên bản mới và lưu vào lịch sử của Repository.
+- **git commit -m `message`** : Đưa các sự thay đổi ở vùng Staging area chuyển sang Repository mục đích là tạo ra 1 phiên bản mới và lưu vào lịch sử của Repository.<br>
   _Lưu ý_: thư mục được thay đổi đã phải nằm trong Staging Area.
 
   > Ví dụ: git commit -m 'Add index.html and app.css':
