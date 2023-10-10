@@ -19,8 +19,14 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 - **Repository** (Git directory - thư mục git): Kho lưu trữ để lưu trữ dữ liệu, lịch sử các phiên bản.
 - [Git Flow](https://i.stack.imgur.com/1ijIQ.png): Quá trình thực thi của Git
 
-# 4. Các lệnh cơ bản
+# 4. Một số lệnh Git cơ bản trên terminal
 
+- **git --version**: Xem phiên bản hiện tại đang được cài trên máy tính.
+- **git --help**: Xem danh sách các câu lệnh Git.
+- **ls** : Hiển dị danh sách các file
+- **clear** : Xóa hiển thị terminal
+
+# 5. Các lệnh cơ bản
 - **git add `file`**: Thêm từng file vào Stage Changes
 
   > Ví dụ: git add index.html
@@ -40,15 +46,14 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 - **git rebase `branch`** : Đảm bảo code luôn mới nhất trên nhánh `branch`
 - **git log --oneline** : Log ra những commit
 - **git status** : Kiểm tra trạng thái của các file
-- **ls** : Hiển dị danh sách các file
-- **clear** : Xóa hiển thị terminal
 - **git pull** : Lấy toàn bộ từ nhánh về
-
-# 5. Git reset
+# 6. Git reset
 
 - **git reset --soft HEAD(`Commit trước đó/ID của commit`)**: Lệnh này chỉ đơn giản khi chúng ta quên add một file nào đó và chỉ muốn add thêm vào sau khi reset
 - **git reset --mixed HEAD(`Commit trước đó/ID của commit`)** (mặc định): Sẽ reset những commit trước đó và những Stage Changes
 - **git reset --hard HEAD(`Commit trước đó/ID của commit`)**: Xóa tất cả commit trước đó nếu có
-# 6. Một số thứ thường thấy khi làm việc chung
+
+# 7. Một số thứ thường thấy khi làm việc chung
+
 - Create pull request
 - Merge code to branch Master
