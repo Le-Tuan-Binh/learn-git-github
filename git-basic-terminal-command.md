@@ -34,20 +34,20 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 - **git status** : Để xem trạng thái của những file đã được thay đổi (bao gồm: thêm, sửa, xóa) trong dự án.
 - **git add `file`**: Thêm từng file vào Stage Changes, tại đây sẽ sắp xếp lại các file đã được thêm vào
 
-  > Ví dụ: git add index.html
+  > **Ví dụ**: git add index.html
 
 - **git add .** : Đưa toàn bộ thay đổi vào Stage Changes
 
-  > Ví dụ: git add .
+  > **Ví dụ**: git add .
 
 - **git commit -m `message`** : Đưa các sự thay đổi ở vùng Staging area chuyển sang Repository mục đích là tạo ra 1 phiên bản mới và lưu vào lịch sử của Repository.
 
-  > Ví dụ: git commit -m 'Add index.html and app.css':
+  > **Ví dụ**: git commit -m 'Add index.html and app.css':
 
 - **git push**: Đẩy lên github
 - **git checkout -b `branch`** : Tạo nhánh mới
 
-  > Ví dụ: git checkout -b TBin
+  > **Ví dụ**: git checkout -b TBin
 
 - **git checkout `branch`** : Chuyển sang nhánh khác
 - **git branch -D `branch`** : Xóa nhánh
