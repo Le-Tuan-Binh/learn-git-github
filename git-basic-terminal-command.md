@@ -46,8 +46,8 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
 - **git push**: Đẩy lên github
 
-- **git log --oneline** : Giúp bạn xem lại thông tin lịch sử commit, nhằm giám sát sự thay đổi của dự án. Commit mới sẽ hiện bên trên, commit cũ sẽ hiện bên dưới (Nếu gặp chữ END thì nhấn phím q để thoát).
-
+- **git log** : Giúp bạn xem lại thông tin lịch sử commit, nhằm giám sát sự thay đổi của dự án. Commit mới sẽ hiện bên trên, commit cũ sẽ hiện bên dưới (Nếu gặp chữ END thì nhấn phím q để thoát).
+- **git show `ID của commit`**: Dùng để xem chi tiết một commit
 - **git checkout -b `branch`** : Tạo nhánh mới
 
   > **Ví dụ**: git checkout -b TBin
