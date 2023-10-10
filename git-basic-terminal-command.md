@@ -29,7 +29,6 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 # 5. Các lệnh cơ bản
 
 - **git init**:
-
   - Khởi tạo 1 git repository (kho lưu trữ) trong một dự án mới hoặc dự án đã có (Dùng trong thư mục gốc của dự án).
   - Khi khởi tạo xong, trong thư mục gốc (dự án đang làm) sẽ sinh ra một thư mục tên là .git, thư mục này sẽ lưu toàn bộ thông tin lịch sử của dự án mà bạn làm. Chúng ta không cần quan tâm bên trong thư mục này chứa gì.
 - **git status** : Để xem trạng thái của những file đã được thay đổi (bao gồm: thêm, sửa, xóa) trong dự án.
@@ -46,6 +45,9 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
   > **Ví dụ**: git commit -m 'Add index.html and app.css':
 
 - **git push**: Đẩy lên github
+
+- **git log --oneline** : Giúp bạn xem lại thông tin lịch sử commit, nhằm giám sát sự thay đổi của dự án. Commit mới sẽ hiện bên trên, commit cũ sẽ hiện bên dưới (Nếu gặp chữ END thì nhấn phím q để thoát).
+
 - **git checkout -b `branch`** : Tạo nhánh mới
 
   > **Ví dụ**: git checkout -b TBin
@@ -53,7 +55,6 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 - **git checkout `branch`** : Chuyển sang nhánh khác
 - **git branch -D `branch`** : Xóa nhánh
 - **git rebase `branch`** : Đảm bảo code luôn mới nhất trên nhánh `branch`
-- **git log --oneline** : Log ra những commit
 
 - **git pull** : Lấy toàn bộ từ nhánh về
 
