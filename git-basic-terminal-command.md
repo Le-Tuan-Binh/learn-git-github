@@ -1,8 +1,11 @@
 # 1. Thiết lập tài khoản người sử dụng
 
-- git config --global user.name `""`
+- git config --global user.name `"user name"`
+
   > Ví dụ: git config --global user.name "Lê Tuấn Bình"
-- git config --global user.email `""`
+
+- git config --global user.email `"user email"`
+
   > Ví dụ: git config --global user.email "ltbinh@gmail.com"
 
 # 2. Các bước tạo ssh key
