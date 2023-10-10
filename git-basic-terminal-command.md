@@ -20,23 +20,24 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 - [Git Flow](https://i.stack.imgur.com/1ijIQ.png): Quá trình thực thi của Git
 
 # 4. Một số lệnh Git cơ bản trên terminal
+
 - **git --version**
-    - Xem phiên bản hiện tại đang được cài trên máy tính.
-- **git --help** 
-    - Xem danh sách các câu lệnh Git.
+  - Xem phiên bản hiện tại đang được cài trên máy tính.
+- **git --help**
+  - Xem danh sách các câu lệnh Git.
 - **ls**
-    - Hiển dị danh sách các file
+  - Hiển dị danh sách các file
 - **clear**
-    - Xóa hiển thị terminal
+  - Xóa hiển thị terminal
+
 # 5. Các lệnh cơ bản
 
 - **git init**:
   - Khởi tạo 1 git repository (kho lưu trữ) trong một dự án mới hoặc dự án đã có (Dùng trong thư mục gốc của dự án).
   - Khi khởi tạo xong, trong thư mục gốc (dự án đang làm) sẽ sinh ra một thư mục tên là .git, thư mục này sẽ lưu toàn bộ thông tin lịch sử của dự án mà bạn làm. Chúng ta không cần quan tâm bên trong thư mục này chứa gì.
-- **git status** 
-    - Để xem trạng thái của những file đã được thay đổi (bao gồm: thêm, sửa, xóa) trong dự án.
-- **git add `file`**
-    - Thêm từng file vào Stage Changes, tại đây sẽ sắp xếp lại các file đã được thêm vào
+- **git status**
+  - Để xem trạng thái của những file đã được thay đổi (bao gồm: thêm, sửa, xóa) trong dự án.
+- **git add `file`**: Thêm từng file vào Stage Changes, tại đây sẽ sắp xếp lại các file đã được thêm vào
 
   > **Ví dụ**: git add index.html
 
