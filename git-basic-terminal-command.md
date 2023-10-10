@@ -37,6 +37,9 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
   > Ví dụ: git add index.html
 
 - **git add .** : Đưa toàn bộ thay đổi vào Stage Changes
+  
+  > Ví dụ: git add .
+
 - **git commit -m `message`** : Đưa các sự thay đổi lên
 
   > Ví dụ: git commit -m 'Add index.html and app.css':
