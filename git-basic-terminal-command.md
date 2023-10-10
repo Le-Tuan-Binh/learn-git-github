@@ -54,6 +54,8 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
   > **Ví dụ**: git checkout -b TBin
 
 - **git checkout `branch`** : Chuyển sang nhánh khác
+
+- **git checkout -- `file name`**: Bỏ đi những thay đổi của file, để file đó trở về như lúc ban đầu. Áp dụng cho file đang ở vùng Working directory.
 - **git branch -D `branch`** : Xóa nhánh
 - **git rebase `branch`** : Đảm bảo code luôn mới nhất trên nhánh `branch`
 - **git pull** : Lấy toàn bộ từ nhánh về
@@ -62,6 +64,7 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
 - **git reset --soft HEAD(`Commit trước đó/ID của commit`)**: Lệnh này chỉ đơn giản khi chúng ta quên add một file nào đó và chỉ muốn add thêm vào sau khi reset
 - **git reset --mixed HEAD(`Commit trước đó/ID của commit`)** (mặc định): Sẽ reset những commit trước đó và những Stage Changes
+- **git reset `file name`**: Chuyển file đó từ vùng Staging area trở lại vùng Working directory.
 - **git reset --hard HEAD(`Commit trước đó/ID của commit`)**: Xóa tất cả commit trước đó nếu có
 
 # 7. Một số thứ thường thấy khi làm việc chung
