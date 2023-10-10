@@ -2,11 +2,11 @@
 
 - git config --global user.name `"user name"`
 
-  > Ví dụ: git config --global user.name "Lê Tuấn Bình"
+  > **Ví dụ**: git config --global user.name "Lê Tuấn Bình"
 
 - git config --global user.email `"user email"`
 
-  > Ví dụ: git config --global user.email "ltbinh@gmail.com"
+  > **Ví dụ**: git config --global user.email "ltbinh@gmail.com"
 
 # 2. Các bước tạo ssh key
 
