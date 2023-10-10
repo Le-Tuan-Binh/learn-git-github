@@ -95,7 +95,7 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
   - Bước 2: **git branch -M main**<br>
   - Bước 3: **git push -u origin main**<br>
 - **Đẩy code lần đầu lên Github khi project chưa có Git**
-  > **git init**<
+  - Bước 1: **git init**
   - Bước 2: **git add .**
   - Bước 3: **git commit -m "Nội dung commit"**
   - Bước 4: **git branch -M main**
