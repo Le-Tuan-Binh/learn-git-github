@@ -61,6 +61,7 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 - **git pull** : Lấy toàn bộ từ nhánh về
 
 # 6. Git reset
+
 - **git reset --soft `HEAD(Commit trước đó)/ID của commit`**:
   - Lệnh này chỉ đơn giản khi chúng ta quên add một file nào đó và chỉ muốn add thêm vào sau khi reset
   - Dùng để chuyển từ trạng thái đã commit về trạng thái trước lúc chạy lệnh git commit.
@@ -69,8 +70,12 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
   - Sẽ reset những commit trước đó và những Stage Changes
   - Dùng để chuyển từ trạng thái đã commit về trạng thái trước lúc chạy lệnh git add.
   - Tức là từ Repository về lại Working directory. Trong đó `ID của commit` là mã của nhánh mà ta muốn quay lại.
-- **git reset `file name`**: Chuyển file đó từ vùng Staging area trở lại vùng Working directory.
-- **git reset --hard `HEAD(Commit trước đó)/ID của commit`**: Xóa tất cả commit trước đó nếu có
+- **git reset `file name`**
+  - Chuyển file đó từ vùng Staging area trở lại vùng Working directory.
+- **git reset --hard `HEAD(Commit trước đó)/ID của commit`**
+  - Xóa tất cả commit trước đó nếu có
+
 # 7. Một số thứ thường thấy khi làm việc chung
+
 - Create pull request
 - Merge code to branch Master
