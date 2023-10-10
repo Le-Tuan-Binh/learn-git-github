@@ -88,4 +88,8 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
 # 8. Các thao tác giữa Git và Github
 
-- **git clone `ssh_link_in_github/http_link_in_github`**: Dùng để clone repository về máy.
+- **git clone `ssh_link_in_github/http_link_in_github`**: Dùng để clone repository từ **Github** về máy.
+- **Đẩy lên Github khi thư mục đã có Git**
+  - git remote add origin `http_link_in_github`
+  - git branch -M main
+  - git push -u origin main
