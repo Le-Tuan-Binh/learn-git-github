@@ -90,6 +90,6 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
 - **git clone `ssh_link_in_github/http_link_in_github`**: Dùng để clone repository từ **Github** về máy.
 - **Đẩy lên Github khi thư mục đã có Git**
-  - git remote add origin `http_link_in_github`
-  - git branch -M main
-  - git push -u origin main
+  - **git remote add origin `http_link_in_github`**
+  - **git branch -M main**
+  - **git push -u origin main**
