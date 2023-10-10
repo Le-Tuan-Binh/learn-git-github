@@ -66,7 +66,9 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
   - Nhánh master là nhánh chính, để sau này deploy lên server.
 - **git branch -D `branch`** : Xóa nhánh
 - **git rebase `branch`** : Đảm bảo code luôn mới nhất trên nhánh `branch`
-
+- **git merge `branch name`**: Để merge nhánh `branch name` vào trong nhánh hiện tại.
+  - Ví dụ: Ta có 2 nhánh A và B, để hợp nhất nhánh B vào trong nhánh A ta làm như sau
+  - Dùng lệnh git checkout A để chuyển sang nhánh A, sau đó chạy lệnh git merge B để hợp nhất nhánh B vào nhánh A.
 # 7. Git reset
 
 - **git reset --soft `HEAD(Commit trước đó)/ID của commit`**:
