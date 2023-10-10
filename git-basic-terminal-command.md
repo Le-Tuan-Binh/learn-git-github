@@ -21,12 +21,18 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
 # 4. Một số lệnh Git cơ bản trên terminal
 
+- **git init**:
+
+  - Khởi tạo 1 git repository (kho lưu trữ) trong một dự án mới hoặc dự án đã có (Dùng trong thư mục gốc của dự án).
+  - Khi khởi tạo xong, trong thư mục gốc (dự án đang làm) sẽ sinh ra một thư mục tên là .git, thư mục này sẽ lưu toàn bộ thông tin lịch sử của dự án mà bạn làm. Chúng ta không cần quan tâm bên trong thư mục này chứa gì.
+
 - **git --version**: Xem phiên bản hiện tại đang được cài trên máy tính.
 - **git --help**: Xem danh sách các câu lệnh Git.
 - **ls** : Hiển dị danh sách các file
 - **clear** : Xóa hiển thị terminal
 
 # 5. Các lệnh cơ bản
+
 - **git add `file`**: Thêm từng file vào Stage Changes
 
   > Ví dụ: git add index.html
@@ -47,6 +53,7 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 - **git log --oneline** : Log ra những commit
 - **git status** : Kiểm tra trạng thái của các file
 - **git pull** : Lấy toàn bộ từ nhánh về
+
 # 6. Git reset
 
 - **git reset --soft HEAD(`Commit trước đó/ID của commit`)**: Lệnh này chỉ đơn giản khi chúng ta quên add một file nào đó và chỉ muốn add thêm vào sau khi reset
