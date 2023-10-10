@@ -45,9 +45,10 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
   > **Ví dụ**: git commit -m 'Add index.html and app.css':
 
 - **git push**: Đẩy lên github
-
 - **git log** : Giúp bạn xem lại thông tin lịch sử commit, nhằm giám sát sự thay đổi của dự án. Commit mới sẽ hiện bên trên, commit cũ sẽ hiện bên dưới (Nếu gặp chữ END thì nhấn phím q để thoát).
 - **git show `ID của commit`**: Dùng để xem chi tiết một commit
+- **git diff**: Xem sự thay đổi của một file sau khi chúng ta chỉnh sửa (File đó vẫn đang ở khu vực Working directory).
+- **gitk**: Mở dashboard xem trực quan hơn.
 - **git checkout -b `branch`** : Tạo nhánh mới
 
   > **Ví dụ**: git checkout -b TBin
@@ -55,7 +56,6 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 - **git checkout `branch`** : Chuyển sang nhánh khác
 - **git branch -D `branch`** : Xóa nhánh
 - **git rebase `branch`** : Đảm bảo code luôn mới nhất trên nhánh `branch`
-
 - **git pull** : Lấy toàn bộ từ nhánh về
 
 # 6. Git reset
