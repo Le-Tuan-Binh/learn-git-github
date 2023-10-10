@@ -85,8 +85,3 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
   - Chuyển file đó từ vùng Staging area trở lại vùng Working directory.
 - **git reset --hard `HEAD(Commit trước đó)/ID của commit`**
   - Xóa tất cả commit trước đó nếu có
-
-# 8. Một số thứ thường thấy khi làm việc chung
-
-- Create pull request
-- Merge code to branch Master
