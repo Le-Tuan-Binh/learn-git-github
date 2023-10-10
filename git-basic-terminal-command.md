@@ -25,32 +25,30 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
   > Ví dụ: git add index.html
 
-- git add . : Đưa toàn bộ thay đổi vào Stage Changes
-- git commit -m `message` : Đưa các sự thay đổi lên
+- **git add .** : Đưa toàn bộ thay đổi vào Stage Changes
+- **git commit -m `message`** : Đưa các sự thay đổi lên
 
   > Ví dụ: git commit -m 'Add index.html and app.css':
 
-- git push: Đẩy lên github
-- git checkout -b `branch` : Tạo nhánh mới
+- **git push**: Đẩy lên github
+- **git checkout -b `branch`** : Tạo nhánh mới
 
   > Ví dụ: git checkout -b TBin
 
-- git checkout `branch` : Chuyển sang nhánh khác
-- git branch -D `branch` : Xóa nhánh
-- git rebase `branch` : Đảm bảo code luôn mới nhất trên nhánh `branch`
-- git log --oneline : Log ra những commit
-- git status : Kiểm tra trạng thái của các file
-- ls : Hiển dị danh sách các file
-- clear : Xóa hiển thị terminal
-- git pull : Lấy toàn bộ từ nhánh về
+- **git checkout `branch`** : Chuyển sang nhánh khác
+- **git branch -D `branch`** : Xóa nhánh
+- **git rebase `branch`** : Đảm bảo code luôn mới nhất trên nhánh `branch`
+- **git log --oneline** : Log ra những commit
+- **git status** : Kiểm tra trạng thái của các file
+- **ls** : Hiển dị danh sách các file
+- **clear** : Xóa hiển thị terminal
+- **git pull** : Lấy toàn bộ từ nhánh về
 
 # 5. Git reset
 
-- git reset --soft HEAD(Commit trước đó/ID của commit): Lệnh này chỉ đơn giản khi chúng ta quên add một file nào đó và chỉ muốn add thêm vào sau khi reset
-- git reset --mixed HEAD(Commit trước đó/ID của commit) (mặc định): Sẽ reset những commit trước đó và những Stage Changes
-- git reset --hard HEAD(Commit trước đó/ID của commit): Xóa tất cả commit trước đó nếu có
-
+- **git reset --soft HEAD(`Commit trước đó/ID của commit`)**: Lệnh này chỉ đơn giản khi chúng ta quên add một file nào đó và chỉ muốn add thêm vào sau khi reset
+- **git reset --mixed HEAD(`Commit trước đó/ID của commit`)** (mặc định): Sẽ reset những commit trước đó và những Stage Changes
+- **git reset --hard HEAD(`Commit trước đó/ID của commit`)**: Xóa tất cả commit trước đó nếu có
 # 6. Một số thứ thường thấy khi làm việc chung
-
-- create pull request
-- merge code to branch Master
+- Create pull request
+- Merge code to branch Master
