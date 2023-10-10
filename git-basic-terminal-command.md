@@ -21,19 +21,28 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
 # 4. Các lệnh cơ bản
 
-- git add `file` -> git add index.html: Thêm từng file vào Stage Changes
-- git add . -> Đưa toàn bộ thay đổi vào Stage Changes
-- git commit -m `message` -> git commit -m 'Add index.html and app.css': Đưa các sự thay đổi lên
+- git add `file`: Thêm từng file vào Stage Changes
+
+  > Ví dụ: git add index.html
+
+- git add . : Đưa toàn bộ thay đổi vào Stage Changes
+- git commit -m `message` : Đưa các sự thay đổi lên
+
+  > Ví dụ: git commit -m 'Add index.html and app.css':
+
 - git push: Đẩy lên github
-- git checkout -b `branch` -> git checkout -b TBin: Tạo nhánh mới
-- git checkout `branch` -> Chuyển sang nhánh khác
-- git branch -D `branch` -> Xóa nhánh
-- git rebase `branch` -> Đảm bảo code luôn mới nhất trên nhánh `branch`
-- git log --oneline: Log ra những commit
-- git status: Kiểm tra trạng thái của các file
-- ls: Hiển dị danh sách các file
-- clear: Xóa hiển thị terminal
-- git pull: Lấy toàn bộ từ nhánh về
+- git checkout -b `branch` : Tạo nhánh mới
+
+  > Ví dụ: git checkout -b TBin
+
+- git checkout `branch` : Chuyển sang nhánh khác
+- git branch -D `branch` : Xóa nhánh
+- git rebase `branch` : Đảm bảo code luôn mới nhất trên nhánh `branch`
+- git log --oneline : Log ra những commit
+- git status : Kiểm tra trạng thái của các file
+- ls : Hiển dị danh sách các file
+- clear : Xóa hiển thị terminal
+- git pull : Lấy toàn bộ từ nhánh về
 
 # 5. Git reset
 
