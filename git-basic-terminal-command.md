@@ -9,9 +9,9 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
 # 3. Các thuật ngữ quan trọng
 
-- _Working directory_ (Thư mục làm việc): Khu vực chứa dự án mà chúng ta đang làm việc.
-- _Staging area_ (Khu vực sắp xếp): khu vực chứa thông tin thay đổi của các file.
-- _Repository_ (Git directory - thư mục git): Kho lưu trữ để lưu trữ dữ liệu, lịch sử các phiên bản.
+- **Working directory** (Thư mục làm việc): Khu vực chứa dự án mà chúng ta đang làm việc.
+- **Staging area** (Khu vực sắp xếp): khu vực chứa thông tin thay đổi của các file.
+- **Repository** (Git directory - thư mục git): Kho lưu trữ để lưu trữ dữ liệu, lịch sử các phiên bản.
 
 # 4. Các lệnh cơ bản
 
