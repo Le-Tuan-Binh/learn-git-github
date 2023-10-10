@@ -21,7 +21,7 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
 # 4. Các lệnh cơ bản
 
-- git add `file`: Thêm từng file vào Stage Changes
+- **git add `file`**: Thêm từng file vào Stage Changes
 
   > Ví dụ: git add index.html
 
