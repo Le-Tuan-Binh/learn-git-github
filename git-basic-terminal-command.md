@@ -101,3 +101,13 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
   - **git branch -M main**
   - **git remote add origin url_github_https**
   - **git push -u origin main**
+  
+# 9. Git Flow
+
+# 10. Quy trình làm việc với github trong thực tế
+## 10.1 Bắt đầu một dự án
+- Khi bắt đầu một dự án, hoặc tham gia vào một dự án bất kì, bạn cần phải đảm bảo trên thư mục của bạn đã có được toàn bộ dữ liệu của dự án thông qua câu lệnh
+```zsh
+git clone <url> 
+```
+# 11. Một số câu lệnh git cơ bản
