@@ -129,7 +129,7 @@ git diff
 
 Xem sự thay đổi của một file sau khi chúng ta chỉnh sửa (File đó vẫn đang ở khu vực Working directory).
 
-**gitk**:
+**gitk**
 
 ```zsh
 gitk
@@ -215,7 +215,7 @@ Ví dụ: Ta có 2 nhánh A và B, để hợp nhất nhánh B vào trong nhánh
 
 # 7. Git reset
 
-**git reset --soft `HEAD(Commit trước đó)/ID của commit`**:
+**git reset --soft `HEAD(Commit trước đó)/ID của commit`**
 
 ```zsh
 git reset --soft <HEAD(Commit trước đó)/ID của commit>
