@@ -327,6 +327,25 @@ git log --oneline
 git checkout -b feature_branch
 ```
 
+**Bước 5**: Thêm các thay đổi vào stage change
+
+```zsh
+git add .
+```
+
+**Bước 6**: Commit toàn bộ những thay đổi lên nhánh
+
+```zsh
+git commit -m "Nội dung"
+```
+
+**Bước 7**: Đây toàn bộ thay đổi lên repository
+
+```zsh
+git push origin feature_branch
+```
+
+**Bước 8**: Di chuyển hoặc truy cập vào repository, tạo merge request và chờ xử lý
 
 
 # 11. Một số câu lệnh git cơ bản
