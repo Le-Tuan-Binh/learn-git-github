@@ -1,8 +1,12 @@
 # 1. Thiết lập tài khoản người sử dụng
 
--   git config --global user.name `"user name"`
+-   Thiết lập tên người dùng
 
-    > **Ví dụ**: git config --global user.name "Lê Tuấn Bình"
+```zsh
+git config --global user.name `"user name"`
+```
+
+-   > **Ví dụ**: git config --global user.name "Lê Tuấn Bình"
 
 -   git config --global user.email `"user email"`
 
@@ -119,5 +123,7 @@ git clone <url>
 ```zsh
 git clone <url> folder_name
 ```
+
+## 10.2 Giai đoạn xuyên suốt dự án
 
 # 11. Một số câu lệnh git cơ bản
