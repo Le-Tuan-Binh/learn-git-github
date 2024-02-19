@@ -147,16 +147,42 @@ Lấy toàn bộ từ nhánh trên github về
 
 # 6. Git checkout và Git branch
 
--   **git checkout -b `branch`** : Tạo nhánh mới và chuyển sang nhánh đó
+**git checkout -b `branch`**
 
-    > **Ví dụ**: git checkout -b TBin
+```zsh
+git checkout -b <branch name>
+```
 
--   **git checkout `branch`** : Chuyển sang nhánh khác
+Tạo nhánh mới và chuyển sang nhánh đó
 
--   **git checkout -- `file name`**: Bỏ đi những thay đổi của file, để file đó trở về như lúc ban đầu. Áp dụng cho file đang ở vùng Working directory.
--   **git branch**
-    -   Xem danh sách các nhánh. Các branch (nhánh) đại diện cho các phiên bản cụ thể của một kho lưu trữ tách ra từ project chính của bạn.
-    -   Nhánh master là nhánh chính, để sau này deploy lên server.
+**git checkout `branch`**
+
+```zsh
+git checkout <branch name>
+```
+
+Chuyển sang nhánh khác
+
+**git checkout -- `file name`**
+
+```zsh
+git checkout -- <file name>
+```
+
+Bỏ đi những thay đổi của file, để file đó trở về như lúc ban đầu. Áp dụng cho file đang ở vùng Working directory.
+
+**git branch**
+
+```zsh
+git branch
+```
+
+Xem danh sách các nhánh.
+
+Các branch (nhánh) đại diện cho các phiên bản cụ thể của một kho lưu trữ tách ra từ project chính của bạn.
+
+Nhánh master là nhánh chính, để sau này deploy lên server.
+
 -   **git branch -D `branch`** : Xóa nhánh
 -   **git rebase `branch`** : Đảm bảo code luôn mới nhất trên nhánh `branch`
 -   **git merge `branch name`**: Để merge nhánh **`branch name`** vào trong nhánh hiện tại.
