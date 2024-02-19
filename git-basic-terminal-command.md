@@ -38,26 +38,30 @@ git version 2.43.0.windows.1
 **git --help**
 
 ```zsh
-git --help
+git --help : Xem hướng dẫn các câu lệnh của git
 ```
 
 **ls**
 
 ```zsh
-ls :Hiển dị danh sách các file
+ls : Hiển dị danh sách các file
 ```
 
 **clear**
 
 ```zsh
-clear: Xóa hiển thị terminal
+clear : Xóa hiển thị terminal
 ```
 
 # 5. Các lệnh cơ bản
 
--   **git init**:
-    -   Khởi tạo 1 git repository (kho lưu trữ) trong một dự án mới hoặc dự án đã có (Dùng trong thư mục gốc của dự án).
-    -   Khi khởi tạo xong, trong thư mục gốc (dự án đang làm) sẽ sinh ra một thư mục tên là .git, thư mục này sẽ lưu toàn bộ thông tin lịch sử của dự án mà bạn làm. Chúng ta không cần quan tâm bên trong thư mục này chứa gì.
+**git init**
+
+```C++
+ - Khởi tạo 1 git repository (kho lưu trữ) trong một dự án mới hoặc dự án đã có (Dùng trong thư mục gốc của dự án).
+ - Khi khởi tạo xong, trong thư mục gốc (dự án đang làm) sẽ sinh ra một thư mục tên là .git, thư mục này sẽ lưu toàn bộ thông tin lịch sử của dự án mà bạn làm. Chúng ta không cần quan tâm bên trong thư mục này chứa gì.
+```
+
 -   **git status**
     -   Để xem trạng thái của những file đã được thay đổi (bao gồm: thêm, sửa, xóa) trong dự án.
 -   **git add `file`**: Thêm từng file vào Stage Changes, tại đây sẽ sắp xếp lại các file đã được thêm vào
