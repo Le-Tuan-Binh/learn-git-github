@@ -301,4 +301,32 @@ git clone <url> folder_name
 
 ## 10.2 Giai đoạn xuyên suốt dự án
 
+Khi được giao một nhiệm vụ xử lý một chức năng hay một yêu cầu nào đó bạn cần phải đảm bảo soucre trên máy của mình đã hoàn toàn trùng với source trên nhánh của dự án
+
+**Bước 1**: Bạn cần di chuyển về nhánh `master / main` là nhánh chính của toàn bộ dự án
+
+```zsh
+git checkout <master/main>
+```
+
+**Bước 2**: Lấy toàn bộ source mới nhất về máy
+
+```zsh
+git pull
+```
+
+**Bước 3**: Kiểm tra source trên máy local đã cập nhật mới nhất so với trên nhánh chưa
+
+```zsh
+git log --oneline
+```
+
+**Bước 4**: Di chuyển đồng thời tạo một nhánh mới để thực hiện phần chức năng của bạn
+
+```zsh
+git checkout -b feature_branch
+```
+
+
+
 # 11. Một số câu lệnh git cơ bản
