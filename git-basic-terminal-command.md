@@ -347,4 +347,18 @@ git push origin feature_branch
 
 **Bước 8**: Di chuyển hoặc truy cập vào repository, tạo merge request và chờ xử lý
 
-## 10.3 Giai đoạn xuyên suốt dự án với các nhóm chức năng nhiều người làm
+**Lưu ý**
+
+Nếu branch của bạn có nhiều người làm chung, bạn chưa kịp push code thì đã có người khác push trước. Vậy thì trước khi push thì hãy pull theo cách này
+
+```zsh
+git pull --rebase
+```
+
+Commit của bạn sẽ được đẩy lên trên commit của đồng nghiệp trong log.
+
+Trong trường hợp bạn muốn lấy code về nhưng chưa muốn merge thì hãy dùng lệnh:
+
+```zsh
+git fetch
+```
