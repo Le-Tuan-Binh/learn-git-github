@@ -24,7 +24,7 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
 **Repository**: Kho lưu trữ để lưu trữ dữ liệu của git, lịch sử các phiên bản.
 
--   [Git Flow](https://i.stack.imgur.com/1ijIQ.png): Quá trình thực thi của Git
+[**Git Flow**](https://i.stack.imgur.com/1ijIQ.png): Quá trình thực thi của Git
 
 # 4. Một số lệnh Git cơ bản trên terminal
 
