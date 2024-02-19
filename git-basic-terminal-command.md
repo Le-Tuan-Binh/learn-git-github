@@ -253,8 +253,14 @@ Xóa tất cả commit trước đó nếu có
 
 # 8. Các thao tác giữa Git và Github
 
--   **Dùng để clone repository từ `Github` về máy.**
-    -   **git clone `ssh_link_in_github/http_link_in_github`**
+**git clone `ssh_link_in_github/http_link_in_github`**
+
+```zsh
+git clone <ssh_link_in_github/http_link_in_github>
+```
+
+Dùng để clone repository từ `Github` về máy.
+
 -   **Đẩy lên Github khi thư mục đã có Git**<br>
     -   **git remote add origin `http_link_in_github`**<br>
     -   **git branch -M main**<br>
