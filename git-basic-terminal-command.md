@@ -287,13 +287,13 @@ git push -u origin main
 
 ## 10.1 Bắt đầu một dự án
 
--   Khi bắt đầu một dự án, hoặc tham gia vào một dự án bất kì, bạn cần phải đảm bảo trên thư mục của bạn đã có được toàn bộ dữ liệu của dự án thông qua câu lệnh
+Khi bắt đầu một dự án, hoặc tham gia vào một dự án bất kì, bạn cần phải đảm bảo trên thư mục của bạn đã có được toàn bộ dữ liệu của dự án thông qua câu lệnh
 
 ```zsh
 git clone <url>
 ```
 
--   Thêm 1 típ nhỏ, là nếu bạn muốn tên folder sau khi clone về khác tên project trên remote thì hãy đặt tên folder ở cuối lệnh:
+Thêm 1 típ nhỏ, là nếu bạn muốn tên folder sau khi clone về khác tên project trên remote thì hãy đặt tên folder ở cuối lệnh:
 
 ```zsh
 git clone <url> folder_name
