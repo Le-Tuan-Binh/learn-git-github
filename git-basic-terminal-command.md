@@ -261,17 +261,25 @@ git clone <ssh_link_in_github/http_link_in_github>
 
 Dùng để clone repository từ `Github` về máy.
 
--   **Đẩy lên Github khi thư mục đã có Git**<br>
-    -   **git remote add origin `http_link_in_github`**<br>
-    -   **git branch -M main**<br>
-    -   **git push -u origin main**<br>
--   **Đẩy code lần đầu lên Github khi project chưa có Git**
-    -   **git init**
-    -   **git add .**
-    -   **git commit -m "Nội dung commit"**
-    -   **git branch -M main**
-    -   **git remote add origin url_github_https**
-    -   **git push -u origin main**
+**Đẩy lên Github khi thư mục đã có Git**<
+
+```zsh
+git remote add origin `http_link_in_github`
+git branch -M main
+git push -u origin main
+```
+
+**Đẩy code lần đầu lên Github khi project chưa có Git**
+
+```zsh
+git init
+git add .
+git commit -m "Nội dung commit"
+git branch -M main
+git remote add origin url_github_https
+git push -u origin main
+
+```
 
 # 9. Git Flow
 
