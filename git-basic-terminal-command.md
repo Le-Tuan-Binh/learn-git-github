@@ -347,5 +347,4 @@ git push origin feature_branch
 
 **Bước 8**: Di chuyển hoặc truy cập vào repository, tạo merge request và chờ xử lý
 
-
-# 11. Một số câu lệnh git cơ bản
+## 10.3 Giai đoạn xuyên suốt dự án với các nhóm chức năng nhiều người làm
