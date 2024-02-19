@@ -224,6 +224,7 @@ git reset --soft <HEAD(Commit trước đó)/ID của commit>
 -   Lệnh này chỉ đơn giản khi chúng ta quên add một file nào đó và chỉ muốn add thêm vào sau khi reset
 -   Dùng để chuyển từ trạng thái đã commit về trạng thái trước lúc chạy lệnh git commit.
 -   Tức là từ Repository về lại Staging area. Trong đó `ID của commit` là mã của nhánh mà ta muốn quay lại.
+-   Reset commit nhưng code vẫn ở trong stage, sẵn sàng cho bạn commit lại.
 
 **git reset --mixed `HEAD(Commit trước đó)/ID của commit`** (mặc định)
 
@@ -234,6 +235,7 @@ git reset --mixed <HEAD(Commit trước đó)/ID của commit>
 -   Sẽ reset những commit trước đó và những Stage Changes
 -   Dùng để chuyển từ trạng thái đã commit về trạng thái trước lúc chạy lệnh git add.
 -   Tức là từ Repository về lại Working directory. Trong đó `ID của commit` là mã của nhánh mà ta muốn quay lại.
+-   Reset commit và đẩy code ra khỏi stage. Bạn cần dùng git add trước khi có thể commit lại.
 
 **git reset `file name`**
 
@@ -249,7 +251,7 @@ Chuyển file đó từ vùng Staging area trở lại vùng Working directory.
 git reset --hard <HEAD(Commit trước đó)/ID của commit>
 ```
 
-Xóa tất cả commit trước đó nếu có
+Reset commit và xóa toàn bộ code bạn đã làm.
 
 # 8. Các thao tác giữa Git và Github
 
