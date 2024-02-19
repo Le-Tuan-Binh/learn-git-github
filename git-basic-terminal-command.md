@@ -28,10 +28,11 @@ https://blog.nguyenary.dev/cach-tao-ssh-key-va-su-dung-no-voi-gitlab-va-github.h
 
 # 4. Một số lệnh Git cơ bản trên terminal
 
-**git --version**
+**git --version**: Xem phiên bản hiện tại đang được cài trên máy tính.
 
 ```zsh
-git --version: Xem phiên bản hiện tại đang được cài trên máy tính.
+git --version
+git version 2.43.0.windows.1
 ```
 
 **git --help**: Xem danh sách các câu lệnh Git.
