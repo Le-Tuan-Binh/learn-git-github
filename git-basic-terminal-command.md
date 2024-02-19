@@ -261,7 +261,7 @@ git clone <ssh_link_in_github/http_link_in_github>
 
 Dùng để clone repository từ `Github` về máy.
 
-**Đẩy lên Github khi thư mục đã có Git**<
+**Đẩy lên Github khi thư mục đã có Git**
 
 ```zsh
 git remote add origin `http_link_in_github`
