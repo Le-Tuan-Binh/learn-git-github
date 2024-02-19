@@ -61,15 +61,25 @@ clear : Xóa hiển thị terminal
 git init
 ```
 
-Khởi tạo 1 git repository (kho lưu trữ) trong một dự án mới hoặc dự án đã có (Dùng trong thư mục gốc của dự án).
+Khởi tạo 1 git `repository` (kho lưu trữ) trong một dự án mới hoặc dự án đã có (Dùng trong thư mục gốc của dự án).
 
 Khi khởi tạo xong, trong thư mục gốc (dự án đang làm) sẽ sinh ra một thư mục tên là .git, thư mục này sẽ lưu toàn bộ thông tin lịch sử của dự án mà bạn làm. Chúng ta không cần quan tâm bên trong thư mục này chứa gì.
 
--   **git status**
-    -   Để xem trạng thái của những file đã được thay đổi (bao gồm: thêm, sửa, xóa) trong dự án.
--   **git add `file`**: Thêm từng file vào Stage Changes, tại đây sẽ sắp xếp lại các file đã được thêm vào
+**git status**
 
-    > **Ví dụ**: git add index.html
+```zsh
+git status
+```
+
+Để xem trạng thái của những file đã được thay đổi (bao gồm: thêm, sửa, xóa) trong dự án.
+
+**git add `file`**
+
+```zsh
+git add file
+```
+
+Thêm từng file vào Stage Changes, tại đây sẽ sắp xếp lại các file đã được thêm vào
 
 -   **git add .** : Đưa toàn bộ thay đổi vào Stage Changes
 
