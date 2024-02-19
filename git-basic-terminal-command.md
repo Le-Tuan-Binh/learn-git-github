@@ -364,3 +364,21 @@ Trong trường hợp bạn muốn lấy code về nhưng chưa muốn merge th�
 ```zsh
 git fetch
 ```
+
+# 11. Git stash
+
+Bạn có thể dùng cái này để lưu tạm code trước khi thực hiện các lệnh rebase hay checkout sang branch khác mà bị conflict.
+
+Bạn cứ tưởng tượng nó như một tờ giấy nháp lưu theo cấu trúc stack vậy.
+
+Khi muốn **lưu tất cả những thay đổi hiện tại vào stash**
+
+```zsh
+git stash
+```
+
+Khi muốn **apply stash cuối cùng vừa lưu**
+
+```zsh
+git stash pop
+```
