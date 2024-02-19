@@ -81,20 +81,69 @@ git add file
 
 Thêm từng file vào Stage Changes, tại đây sẽ sắp xếp lại các file đã được thêm vào
 
--   **git add .** : Đưa toàn bộ thay đổi vào Stage Changes
+**git add .**
 
-    > **Ví dụ**: git add .
+```zsh
+git add .
+```
 
--   **git commit -m `message`** : Đưa các sự thay đổi ở vùng Staging area chuyển sang Repository mục đích là tạo ra 1 phiên bản mới và lưu vào lịch sử của Repository.
+Đưa toàn bộ thay đổi vào Stage Changes
 
-    > **Ví dụ**: git commit -m 'Add index.html and app.css':
+**git commit -m `message`**
 
--   **git push**: Đẩy lên github
--   **git log** : Giúp bạn xem lại thông tin lịch sử commit, nhằm giám sát sự thay đổi của dự án. Commit mới sẽ hiện bên trên, commit cũ sẽ hiện bên dưới (Nếu gặp chữ END thì nhấn phím q để thoát).
--   **git show `ID của commit`**: Dùng để xem chi tiết một commit
--   **git diff**: Xem sự thay đổi của một file sau khi chúng ta chỉnh sửa (File đó vẫn đang ở khu vực Working directory).
--   **gitk**: Mở dashboard xem trực quan hơn
--   **git pull** : Lấy toàn bộ từ nhánh về
+```zsh
+git commit -m "message"
+```
+
+Đưa các sự thay đổi ở vùng Staging area chuyển sang Repository mục đích là tạo ra 1 phiên bản mới và lưu vào lịch sử của Repository.
+
+**git push**
+
+```zsh
+git push
+```
+
+Đẩy toàn bộ lên github
+
+**git log**
+
+```zsh
+git log
+```
+
+Giúp bạn xem lại thông tin lịch sử commit, nhằm giám sát sự thay đổi của dự án. Commit mới sẽ hiện bên trên, commit cũ sẽ hiện bên dưới (Nếu gặp chữ END thì nhấn phím q để thoát).
+
+**git show `ID của commit`**
+
+```zsh
+git show <ID của commit>
+```
+
+Dùng để xem chi tiết một commit
+
+**git diff**
+
+```zsh
+git diff
+```
+
+Xem sự thay đổi của một file sau khi chúng ta chỉnh sửa (File đó vẫn đang ở khu vực Working directory).
+
+**gitk**:
+
+```zsh
+gitk
+```
+
+Mở dashboard xem trực quan hơn các lịch sử commit cũng như các thông tin trên git
+
+**git pull**
+
+```zsh
+git pull
+```
+
+Lấy toàn bộ từ nhánh trên github về
 
 # 6. Git checkout và Git branch
 
